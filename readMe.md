@@ -13,3 +13,5 @@ Instructions to run tests (incomplete)
 --------------
 npm test
 
+
+![Screenie](http://i.imgur.com/7XWXrMu.png) 
