@@ -1,4 +1,4 @@
-Calculator with: React.js / JSX  / JEST  / Custom CSS
+Calculator with: React.js / JSX  / JEST  / nodeJS Custom CSS
 
 chris@craftfortress 29/10/2014
 
