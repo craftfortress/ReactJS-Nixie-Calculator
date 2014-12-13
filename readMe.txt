@@ -12,5 +12,4 @@ The calculator will then render in your browser.
 Instructions to run tests (incomplete)
 --------------
 npm test
-
-[[http://i.imgur.com/7XWXrMu.png]]
+![Screenie](http://i.imgur.com/7XWXrMu.png) 
