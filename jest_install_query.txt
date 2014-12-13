@@ -1,0 +1,5 @@
+npm install jest-cli  --msvs_version=2012
+
+
+
+ 

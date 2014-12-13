@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>React.js Calculator using JSX</title>
+  
+  <script src="http://fb.me/react-with-addons-0.10.0.js"></script>
+  <script src="http://fb.me/JSXTransformer-0.10.0.js"></script>
+ 
+</head>
+<style>
+body { 
+height:100%;
+	background: white; /* Old browsers */ 
+   width: 400px ;
+  margin-left: auto ;
+  margin-right: auto ;
+
+
+
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+ 
+/* IE8- CSS hack */
+@media \0screen\,screen\9 {
+    .gradient {
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff808080",endColorstr="#ffa9a9a9",GradientType=0);
+    }
+}
+ 
+.Panel{
+min-width:400px;
+max-width:400px; 
+
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;  
+}
+
+h2{
+  color: black; 
+    font-size:20px; 
+    font-family: 'Wire One', sans-serif; 
+    padding:10%;
+}
+
+input{ 
+    color: #f98e00; 
+    font-size:60px;
+    background-color : #000000;
+    //font-family: 'Port Lligat Sans', sans-serif;
+    font-family: 'Wire One', sans-serif;
+    -webkit-animation: color-change 3s infinite; 
+    text-align:right; 
+    border:0px;
+    padding-right:30px;
+    max-width:400px;
+     -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+ 
+
+@-webkit-keyframes buttonPulse {
+  from { background-color: #696969;   }
+  50% { background-color: #777777;   }
+  to { background-color:  #696969;   }
+}
+
+@-webkit-keyframes color-change {
+    0% {
+    text-shadow: 0 0 5px #aa1d00,
+ 		 0 0 5px #aa1d00,
+		 0 0 5px #aa1d00,
+		 0 0 5px #aa1d00;
+	
+       }
+    50% {
+
+    text-shadow: 0 0 10px #aa1d00,
+ 		 0 0 10px #aa1d00,
+		 0 0 10px #aa1d00,
+		 0 0 10px #aa1d00;
+       }
+    100% {
+    text-shadow: 0 0 5px #aa1d00,
+ 		 0 0 5px #aa1d00,
+		 0 0 5px #aa1d00,
+		 0 0 5px #aa1d00;
+       }
+    } 
+
+button {
+	width:100px;
+  background: #666666;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px; 
+   font: 100 200%/1 Quicksand, sans-serif;
+   border:0px;
+  font-size: 32px;
+  padding: 10px; 
+  text-decoration: none;
+border-color:black;
+
+outline: 0;
+
+
+}
+button:active{
+border-width:0px;
+ 
+  text-decoration: none;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+   
+outline: 0;
+}
+
+button:hover {
+
+outline: 0;
+
+  text-decoration: none;
+
+  -webkit-animation-name: buttonPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+</style>
+<body>
+   
+    <script type="text/jsx" src="button.js"></script>
+    <script type="text/jsx" src="keyboard.js"></script>
+    <script type="text/jsx" src="ResultField.js"></script>
+    <script type="text/jsx" src="calculator.js"></script>
+
+</body>
+</html>

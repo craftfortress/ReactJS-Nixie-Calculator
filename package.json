@@ -1,0 +1,35 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "React.js & JSX calculator",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.9.1",
+    "cors": "^2.5.0",
+    "errorhandler": "^1.2.2",
+    "express": "^4.10.0",
+    "method-override": "^1.0.2",
+    "open": "^0.0.5",
+    "react": "*",
+    "react-tools": "*"
+  },
+  "jest": {
+    "scriptPreprocessor": "preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "react"
+    ]
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "react",
+    "calculator",
+    "jsx",
+    "react.js"
+  ],
+  "author": "Chris@craftfortress.com",
+  "license": "ISC"
+}
