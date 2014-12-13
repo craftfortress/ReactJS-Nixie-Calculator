@@ -13,3 +13,4 @@ Instructions to run tests (incomplete)
 --------------
 npm test
 
+[[http://i.imgur.com/7XWXrMu.png]]
